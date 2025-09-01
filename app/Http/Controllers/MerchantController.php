@@ -47,7 +47,7 @@ class MerchantController extends Controller
         //     Storage::disk('public')->delete($service->photo);
         // }
 
-        // $merchant->delete();
+        // $merchant->user()->delete();
 
         return redirect()->route('dashboard');
     }

@@ -8,7 +8,6 @@
         </div>
         <div class="max-w-screen-xl px-4 mx-auto 2xl:px-0">
 
-            {{-- Dummy Start --}}
             {{-- <div class="lg:grid lg:grid-cols-2 lg:gap-8 xl:gap-16">
                 <div class="shrink-0 max-w-md lg:max-w-lg mx-auto">
                     <img class="w-full dark:hidden rounded-lg" src="{{ Storage::url($service->photo) }}"
@@ -52,8 +51,8 @@
                     </p>
                 </div>
             </div> --}}
-            {{-- Dummy End --}}
 
+            {{-- Dummy Start --}}
             <div class="lg:grid lg:grid-cols-2 lg:gap-8 xl:gap-16">
                 <div class="shrink-0 max-w-md lg:max-w-lg mx-auto">
                     <img class="w-full dark:hidden rounded-lg" src="https://placehold.co/600x400" alt="Make Up Artist" />
@@ -92,12 +91,13 @@
                     <hr class="my-6 md:my-8 border-gray-200 dark:border-gray-800" />
 
                     <p class="mb-6 text-gray-500 dark:text-gray-400">
-                        {{-- Pagination Start --}}
-                        {{-- {{ $service->description }} --}}
-                        {{-- Pagination End --}}
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos harum iste aspernatur fuga
+                        temporibus corporis quam non eius modi dolor. Debitis magnam incidunt natus hic sequi asperiores
+                        rem temporibus culpa.
                     </p>
                 </div>
             </div>
+            {{-- Dummy End --}}
         </div>
     </section>
 </x-main>
